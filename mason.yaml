@@ -1,3 +1,5 @@
 bricks:
   hello: 0.1.0+1
   flutter_bloc_feature: ^0.2.1
+  model: ^0.6.0
+  very_good_dart_package: ^0.2.3

@@ -7,8 +7,12 @@ import '../../ticker.dart';
 part 'timer_event.dart';
 part 'timer_states.dart';
 
+/// Timer Bloc controls states of the primary timer
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
+  /// The ticker object we are talking about.
   final Ticker _ticker;
+
+  /// Duration the timer starts at.
   static const int _duration = 25 * 60;
 
   StreamSubscription<int>? _tickerSubscription;
