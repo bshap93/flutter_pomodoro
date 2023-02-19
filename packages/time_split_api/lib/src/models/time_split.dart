@@ -45,4 +45,6 @@ class TimeSplit extends Equatable {
   @override
   List<Object?> get props =>
       [workTime, shortRestTime, longRestTime, workBlocksPerLongRest];
+
+  static fromJson(Map<String, dynamic> map) {}
 }

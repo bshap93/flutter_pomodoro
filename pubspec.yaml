@@ -12,7 +12,12 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.1
-  
+  time_split_api:
+    path: packages/time_split_api/
+  local_time_split_api:
+    path: packages/local_time_split_api/
+  time_split_repository:
+    path: packages/time_split_repository/
 
 dev_dependencies:
   bloc_test: ^9.0.3
